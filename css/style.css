@@ -98,6 +98,12 @@ ul {
 .menu-nav:not(:last-child) {
   margin-right: 50px;
 }
+
+.section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero {
   max-width: 700px;
   color: var(--white);
@@ -111,9 +117,8 @@ ul {
   font-size: 44px;
   line-height: 60px;
   text-transform: uppercase;
-  padding-top: 200px;
-  padding-bottom: 30px;
-  margin: 0px;
+  margin-bottom: 30px;
+  margin-top: 0px;
 }
 
 .btn {
@@ -129,7 +134,6 @@ ul {
   border-radius: 4px;
   border-style: none;
   padding: 10px 32px;
-  margin-bottom: 200px;
 }
 
 .section {
@@ -211,16 +215,16 @@ img {
   background-color: var(--background-1);
 }
 
-.logo-position {
+.footer-section {
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .address-title {
   font-style: normal;
   width: calc((100% - 3 * 30px) / 4);
   line-height: 21px;
-  padding-bottom: 60px;
+  margin-top: 20px;
 }
 
 .address-link {
@@ -237,6 +241,11 @@ img {
 .contacts-link {
   color: var(--gray);
   text-decoration: none;
+}
+
+.border {
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .btn-menu {
@@ -263,7 +272,7 @@ img {
 }
 
 .title-position {
-  border: 0.5px solid #eeeeee;
+  border: 1px solid #eeeeee;
   border-top: none;
   padding-top: 20px;
   padding-left: 24px;
